@@ -1,0 +1,97 @@
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+header{
+    background:rgb(135, 206, 250, 0.6);
+    width:180px;
+    height:100%;
+    position: fixed;
+    top:0px;
+    left:0px;
+}
+
+nav li{
+height: 40px;
+line-height: 40px;
+background:powderblue ;
+position: relative;
+}
+    
+nav a{
+padding-left: 20px;
+text-decoration: none;
+color:blue;
+display: block;
+}
+    
+nav a:hover{
+background:lightseagreen;
+color:white;
+}
+
+footer{
+    height:60px;
+    line-height: 60px;
+    width:100%;
+    position: fixed;
+    bottom:0px;
+    left:180px;
+    background:rgb(135, 206, 250, .7);
+}
+
+footer li{
+    float: left;
+    margin-right: 30px;
+    list-style-type: none;
+}
+
+
+h1, h2{color:#800020;}
+h3{color: #800020;}
+
+img{
+ width: 100%;
+
+display:block;
+}
+
+aside img{
+width:180px ; 
+  border:#800020 10px solid ;  
+ margin-left:30px;
+ float: right;
+ }
+
+body{
+ /*background:lightseagreen;*/
+ background-image:url(../images/dragon3.jfif);
+ /* background-repeat: repeat;
+  background-position: 220px 0;*/
+  background-size: cover;
+}
+#wrapper {
+    margin:50px 0px 100px 200px;
+width:980px;
+background:rgba(201, 237, 241, 0.6);
+
+}
+
+p{margin: 60px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-family:'milkshakeregular' ;
+    }
+
+    @font-face {
+        font-family: 'milkshakeregular';
+        src: url('../fonts/milkshake-webfont.woff2') format('woff2'),
+             url('../fonts/milkshake-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    
+    }
+
